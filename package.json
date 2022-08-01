@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Refactoring Google Search API using REST API to use GraphQL and Apollo",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -10,9 +10,17 @@
     "build": "cd client && npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Stella Ling",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellalph/21-MERN-Book-Search-Engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stellalph/21-MERN-Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/stellalph/21-MERN-Book-Search-Engine#readme"
 }
