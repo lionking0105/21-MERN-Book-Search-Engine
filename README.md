@@ -17,15 +17,23 @@ The URL of the GitHub repository is https://github.com/stellalph/21-MERN-Book-Se
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [References](#references)
 - [License](#license)
 
-## Installation
+## Technologies Used
 
 ## Deployment
+
+- The application has been deployed to Heroku with a MongoDB database using MongoDB Atlas.
+
+- See the below the example of MongoDB database using MongoDB Atlas:-
+
+  ![alt text](./assets/img05.png)
+
+- The URL of the functional deployed application is https://protected-brushlands-99995.herokuapp.com/
 
 ## Usage
 
