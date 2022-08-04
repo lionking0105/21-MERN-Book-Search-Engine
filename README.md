@@ -39,10 +39,10 @@ The URL of the GitHub repository is https://github.com/stellalph/21-MERN-Book-Se
 
 - As this application has come already with mostly pre-installed npm packages and is fully functioning Google Books API search engine built with a RESTful API and to refactor it to be a Graph API built with Apollo Server, the following additional npm packages were installed:-
 
-- npm i apollo-server-express
-- npm i graphql
-- npm i @apollo/client
-- npm i @apollo/react-hooks
+        - npm i apollo-server-express
+        - npm i graphql
+        - npm i @apollo/client
+        - npm i @apollo/react-hooks
 
 ## Deployment
 
