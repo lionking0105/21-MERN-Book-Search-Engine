@@ -32,10 +32,9 @@ The URL of the GitHub repository is https://github.com/stellalph/21-MERN-Book-Se
   - Node.js
 - The MERN stack has a three-layer architecture based on Model-View-Controller pattern and each interconnected layer performs a specific function in the application:-
 
-  | ------------------------** Model View Controller **------------------------------------------------|
   | Client (View)      | React JS               | User inputs data and Data display                    |
   | ------------------ | ---------------------- | ---------------------------------------------------- |
-  | Server(Controller) | Express.js and Node.js | Method called to store and retrieve data in database |
+  |**Server(Controller)** | **Express.js and Node.js** | **Method called to store and retrieve data in database** |
   | Database(Model)    | MongoDB                | Stores raw data and contains no logic                |
  
 
