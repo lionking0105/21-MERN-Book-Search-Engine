@@ -46,11 +46,11 @@ The URL of the GitHub repository is https://github.com/stellalph/21-MERN-Book-Se
 
 * Before deploying to Heroku, the application is run in develop mode and tested using by entering at command prompt:-
 
-    - npm install (ensure all that dependencies are installed)
-    - npm init
-    - npm run develop ( cd to the correct directory)
+  - npm install (ensure all that dependencies are installed)
+  - npm init
+  - npm run develop ( cd to the correct directory)
 
-      ![alt text](./assets/img06.png)
+    ![alt text](./assets/img06.png)
 
 ## Deployment
 
@@ -66,7 +66,9 @@ The URL of the GitHub repository is https://github.com/stellalph/21-MERN-Book-Se
 
 Below are the screenshots of the walkthrough steps the user (the avid reader) who want to search for new books to so that the user can keep a list of books to purchase.
 
-* As the user of the application :-
+- As the user of the application :-
+
+```
 
 GIVEN a book search engine
 WHEN I load the search engine
@@ -75,14 +77,18 @@ WHEN I click on the Search for Books menu option
 THEN I am presented with an input field to search for books and a submit button
 WHEN I am not logged in and enter a search term in the input field and click the submit button
 THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site
+```
 
-* ![alt text](./assets/img06.png)
+- ![alt text](./assets/img01.png)
 
+```
 WHEN I click on the Login/Signup menu option
 THEN a modal appears on the screen with a toggle between the option to log in or sign up
+```
 
-* ![alt text](./assets/img06.png)
+- ![alt text](./assets/img04.png)
 
+```
 WHEN the toggle is set to Signup
 THEN I am presented with three inputs for a username, an email address, and a password, and a signup button
 WHEN the toggle is set to Login
@@ -102,15 +108,14 @@ THEN I am presented with all of the books I have saved to my account, each featu
 WHEN I click on the Remove button on a book
 THEN that book is deleted from my saved books list
 WHEN I click on the Logout button
-THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
-
+THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
+```
 
 ## References
 
-* Request Response - The Full Stack Blog - Set up MongoDB Atlas dated May 10, 2022
-* Request Response - The Full Stack Blog - Deploy with Heroku and MongoDB Atlas dated July 01, 2022
-* Request Response - The Full Stack Blog - Using the GraphQL Playground in a MERN application dated May 19, 2022
-
+- Request Response - The Full Stack Blog - Set up MongoDB Atlas dated May 10, 2022
+- Request Response - The Full Stack Blog - Deploy with Heroku and MongoDB Atlas dated July 01, 2022
+- Request Response - The Full Stack Blog - Using the GraphQL Playground in a MERN application dated May 19, 2022
 
 ## License
 
