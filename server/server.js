@@ -14,7 +14,10 @@ const app = express();
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  context: authMiddleware
+ context: authMiddleware,
+//  These two lines below enable the playground when deployed to Heroku.
+  introspection: true,
+  playground: true, 
 });
 
 

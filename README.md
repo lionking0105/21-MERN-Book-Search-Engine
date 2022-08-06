@@ -89,48 +89,56 @@ THEN I am presented with three inputs for a username, an email address, and a pa
 
 ```
 
-* ![alt text](./assets/img07.png)
+- ![alt text](./assets/img07.png)
 
-````
+```
 WHEN the toggle is set to Login
 THEN I am presented with two inputs for an email address and a password and login button
 
-````
-*  ![alt text](./assets/img04.png)
-````
+```
+
+- ![alt text](./assets/img04.png)
+
+```
 WHEN I enter a valid email address and create a password and click on the signup button
 THEN my user account is created and I am logged in to the site
 WHEN I enter my account’s email address and password and click on the login button
 THEN I the modal closes and I am logged in to the site
 WHEN I am logged in to the site
 THEN the menu options change to Search for Books, an option to see my saved books, and Logout
-````
-*  ![alt text](./assets/img02.png)
+```
 
-````
+- ![alt text](./assets/img02.png)
+
+```
 WHEN I am logged in and enter a search term in the input field and click the submit button
 THEN I am presented with several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site and a button to save a book to my account
-````
-*  ![alt text](./assets/img09.png)
+```
+
+- ![alt text](./assets/img09.png)
+
 ```
 WHEN I click on the Save button on a book
 THEN that book’s information is saved to my account
 WHEN I click on the option to see my saved books
 THEN I am presented with all of the books I have saved to my account, each featuring the book’s title, author, description, image, and a link to that book on the Google Books site and a button to remove a book from my account
 ```
-*  ![alt text](./assets/img10.png)
+
+- ![alt text](./assets/img10.png)
 
 ```
 WHEN I click on the Remove button on a book
 THEN that book is deleted from my saved books list
 ```
-*  ![alt text](./assets/img11.png)
+
+- ![alt text](./assets/img11.png)
 
 ```
 WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
 ```
-* ![alt text](./assets/img00.png)
+
+- ![alt text](./assets/img00.png)
 
 ## References
 

@@ -13,19 +13,20 @@ const resolvers = {
     },
     Mutation: {
         addUser: async (parent, args) => {
+            console.log(args)
             const user = await User.create(args);
             const token = signToken(user);
             console.log(token);
-            return {token, user};
+            return { token, user };
         },
         loginUser: async (parent, args) => {
             const user = await User.findOne({ $or: [{ username: args.username }, { email: args.email }] });
             if (!user) {
-              throw new AuthenticationError("Can't find this user");
+                throw new AuthenticationError("Can't find this user");
             }
-        
+
             const correctPw = await user.isCorrectPassword(args.password);
-        
+
             if (!correctPw) {
                 throw new AuthenticationError('Wrong password!');
             }
@@ -39,11 +40,11 @@ const resolvers = {
                 { new: true, runValidators: true }
             );
         },
-        removeBook: async (parent, args, context)=> {
+        removeBook: async (parent, args, context) => {
             return await User.findOneAndUpdate(
-              { _id: context.user._id },
-              { $pull: { savedBooks: { bookId: args.bookId } } },
-              { new: true }
+                { _id: context.user._id },
+                { $pull: { savedBooks: { bookId: args.bookId } } },
+                { new: true }
             );
         },
     },
