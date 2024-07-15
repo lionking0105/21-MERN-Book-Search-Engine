@@ -13,7 +13,7 @@ This project assisgnment is to :-
 - Create an Apollo Provider so that requests can communicate with an Apollo Server.
 - Deploy the application to Heroku with a MongoDB database using MongoDB Atlas.
 
-The URL of the GitHub repository is https://github.com/stellalph/21-MERN-Book-Search-Engine.git and the repository name is 21-MERN-Book-Search-Engine.
+The URL of the GitHub repository is https://github.com/lionking0105/21-MERN-Book-Search-Engine.git and the repository name is 21-MERN-Book-Search-Engine.
 
 ## Table of Contents
 
